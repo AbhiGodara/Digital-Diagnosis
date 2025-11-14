@@ -42,7 +42,7 @@ HealthPilot works without internet once deployed locally.
 - JavaScript  
 
 ---
-
+```
 ## 📁 Project Structure
 HealthPilot/
 │
@@ -63,7 +63,7 @@ HealthPilot/
 │ └── model.safetensors
 │
 └── README.md
-
+```
 
 ---
 
