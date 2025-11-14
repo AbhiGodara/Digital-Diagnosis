@@ -70,10 +70,16 @@ HealthPilot/
 ## 📊 Training Curves
 
 ### **Loss Curve**
-![Loss Curve](./training_curves/loss_curve.png)
+![Loss Curve](loss_epochs.png)
 
 ### **Accuracy Curve**
-![Accuracy Curve](./training_curves/accuracy_curve.png)
+![Accuracy Curve](accuracy_epochs.png)
+
+### **F1 Score curve**
+![Accuracy Curve](macroF1_epochs.png)
+
+### **Heatmp**
+![Accuracy Curve](prediction_heatmap.png)
 
 ---
 
