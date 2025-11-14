@@ -18,3 +18,4 @@ flask-cors
 # sentence-transformers
 transformers
 torch
+gunicorn

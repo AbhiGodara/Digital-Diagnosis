@@ -353,13 +353,13 @@ class MedicalDiagnosisApp {
         const totalPredictions = data.predictions?.length || 0;
         const topProbability = data.predictions?.[0]?.probability || 0;
         const processingTime = data.processing_time || 0;
-        const keywordsCount = data.extracted_keywords?.length || 0;
+        // const keywordsCount = data.extracted_keywords?.length || 0;
         
         // Update display
         document.getElementById('totalPredictions').textContent = totalPredictions;
         document.getElementById('topProbability').textContent = topProbability + '%';
         document.getElementById('processingTime').textContent = processingTime + 's';
-        document.getElementById('keywordsCount').textContent = keywordsCount;
+        // document.getElementById('keywordsCount').textContent = keywordsCount;
     }
     
     displayDiagnosisResults(predictions) {
