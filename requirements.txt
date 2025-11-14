@@ -1,0 +1,20 @@
+# Core packages
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+jupyter
+nltk
+python-dateutil
+openpyxl
+# Flask stack
+flask
+flask-cors
+# Werkzeug
+
+# NLP + embeddings (COMPATIBLE VERSIONS)
+# sentence-transformers
+transformers
+torch
